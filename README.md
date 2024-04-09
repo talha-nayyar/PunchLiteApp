@@ -1,7 +1,14 @@
-# Expo-TrayLink-Pro
+Install Required Dependencies: Make sure you have Node.js and npm installed on your system. 
+Then, navigate to your React Native project directory and run:
 
-PunchLite is a time tracking cross-platform phone application that allows the freelancers to keep track of their hours worked and the clients to keep track of the time spent on the assigned tasks.
-Steps to run the app:
 npm install
+
+This command will install all the dependencies listed in your package.json.
+
+Start Development Server: You typically use react-native-app to start the development 
+server for React Native projects. Assuming you're using Expo, you can start your development server with:
+
 npm start
-And then access on the most convenient device or simlator
+
+This command will start the Expo development server, and it will provide you with a QR code that you can scan
+with the Expo Go app on your mobile device to preview your application.
