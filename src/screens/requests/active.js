@@ -15,15 +15,6 @@ export default function ActiveRequests() {
 
     const { getDocuments } = useFirebase();
 
-    // const filtered = useMemo(() => {
-    // return Requests.filter(
-    //   (user) =>
-    //     user.firstname.toLowerCase().includes(search.toLowerCase()) ||
-    //     user.lastname.toLowerCase().includes(search.toLowerCase())
-    // );
-
-    // }, [Requests, search]);
-
     useFocusEffect(
         React.useCallback(() => {
             getRequests();
